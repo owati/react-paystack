@@ -29,6 +29,7 @@ bower_components
 # node-waf configuration
 .lock-wscript
 
+temp_auto_push.bat
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
 
@@ -60,3 +61,5 @@ typings/
 .DS_Store
 .code
 
+.gitignore
+branch_structure.json

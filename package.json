@@ -7,7 +7,7 @@
     "test": "mocha --reporter spec test/testSetup.js \"test/**/*.spec.js\"",
     "dist": "./node_modules/.bin/babel ./src/PayStack.js --out-file ./distribution/paystack.min.js --source-maps true",
     "format": "prettier --write '**/**/*.{js,}'",
-    "start": "react-scripts start"
+    "start": "node api.js && react-scripts start"
   },
   "repository": {
     "type": "git",
