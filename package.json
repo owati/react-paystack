@@ -1,13 +1,13 @@
 {
   "name": "react-paystack",
-  "version": "3.0.4",
+  "version": "3.0.5",
   "description": "This is an reactJS library for implementing paystack payment gateway",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "typings": "dist/index.d.ts",
   "jsnext:main": "dist/index.es.js",
   "scripts": {
-    "build": "rm -rf dist && rollup -c ",
+    "build": "node api.js && rm -rf dist && rollup -c",
     "build:watch": "rm -rf dist && rollup -c --watch",
     "format": "prettier --write '**/**/*.{js,}'",
     "lint": "eslint --ext .js,.ts,.tsx,.jsx --ignore-path .eslintignore .",
