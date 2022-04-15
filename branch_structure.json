@@ -1,0 +1,24 @@
+{
+  "default_branch": "master",
+  "branches": [
+    "master",
+    "origin",
+    "patch-1",
+    "setup-github-actions",
+    "v3"
+  ],
+  "parent": {
+    "master": null,
+    "origin": "master",
+    "patch-1": "master",
+    "setup-github-actions": "master",
+    "v3": "master"
+  },
+  "order": [
+    "master",
+    "origin",
+    "patch-1",
+    "setup-github-actions",
+    "v3"
+  ]
+}
